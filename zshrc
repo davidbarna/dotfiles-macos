@@ -12,7 +12,9 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # Create Aliases
 
 # List all files ordered by type with size info 
-alias ls='ls -lAFh'
+# alias ls='ls -lAFh'
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
 
 # Customize Prompt(s)
 PROMPT='
