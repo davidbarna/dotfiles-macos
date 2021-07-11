@@ -2,6 +2,9 @@ echo "Hello a 3rd time .zshrc"
 
 # Set Variables
 
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
 
@@ -9,7 +12,9 @@ echo "Hello a 3rd time .zshrc"
 # Create Aliases
 
 # List all files ordered by type with size info 
-alias ls='ls -lAFh'
+# alias ls='ls -lAFh'
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
 
 # Customize Prompt(s)
 PROMPT='
@@ -18,6 +23,9 @@ PROMPT='
 RPROMPT='%*'
 
 # Add Locations to $PATH Variable
+
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 
 # Write Handy Functions
