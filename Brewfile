@@ -1,19 +1,13 @@
-# Taps
-
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-
-# Brews (Packages)
 brew "bat"
 brew "exa"
+brew "git", link: false
 brew "httpie"
-
-# Development tools
 brew "nvm"
-
-# Applications
 cask "alfred"
+cask "gitkraken"
 cask "google-chrome"
 cask "visual-studio-code"
