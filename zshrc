@@ -1,4 +1,4 @@
-echo "Hello a 3rd time .zshrc"
+echo "Hello from .zshrc"
 
 # Set Variables
 
