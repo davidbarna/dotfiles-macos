@@ -10,6 +10,8 @@ brew "exa"
 brew "git", link: false
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Mac App Store command-line interface
+brew "mas"
 # Manage multiple Node.js versions
 brew "nvm"
 # Application launcher and productivity software
@@ -20,5 +22,11 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Music streaming service
+cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
+mas "DaisyDisk", id: 411643860
+mas "Kindle", id: 405399194
+mas "Magnet", id: 441258766
+mas "Owly", id: 882812218
