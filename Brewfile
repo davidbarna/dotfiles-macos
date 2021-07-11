@@ -12,14 +12,16 @@ brew "git", link: false
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Text-based UI library
+brew "ncurses"
 # Manage multiple Node.js versions
 brew "nvm"
+# Perl compatible regular expressions library
+brew "pcre"
 # Application launcher and productivity software
 cask "alfred"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
-# Git client focusing on productivity
-cask "gitkraken"
 # Web browser
 cask "google-chrome"
 # Music streaming service
