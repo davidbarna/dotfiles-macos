@@ -20,6 +20,8 @@ brew "mas"
 brew "nvm"
 # Perl compatible regular expressions library
 brew "pcre"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Application launcher and productivity software
 cask "alfred"
 # Client for the Dropbox cloud storage service
