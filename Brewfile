@@ -14,6 +14,8 @@ brew "httpie"
 brew "nvm"
 # Application launcher and productivity software
 cask "alfred"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
