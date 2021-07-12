@@ -6,6 +6,8 @@ echo "Hello from .zshrc"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export export NULLCMD=bat
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
 
@@ -28,6 +30,9 @@ RPROMPT='%*'
 
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# Add N local
+export PATH="$PATH:$N_PREFIX/bin"
 
 
 # Write Handy Functions

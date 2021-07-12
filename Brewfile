@@ -16,8 +16,8 @@ brew "ncurses"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-# Manage multiple Node.js versions
-brew "nvm"
+# Node version management
+brew "n"
 # Perl compatible regular expressions library
 brew "pcre"
 # UNIX shell (command interpreter)
