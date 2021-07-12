@@ -16,5 +16,8 @@ fi
 # Retrieve a node module's readme from the command line, and pipe it into less.
 npm install --global readme
 
+# Fast, reliable, and secure dependency management.
+npm install --global yarn
+
 echo "Global NPM packages installed:"
 npm list --global --depth=0
