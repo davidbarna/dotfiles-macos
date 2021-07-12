@@ -11,3 +11,10 @@ else
   n lts
 fi
 
+# Install Global NPM Packages
+
+# Retrieve a node module's readme from the command line, and pipe it into less.
+npm install --global readme
+
+echo "Global NPM packages installed:"
+npm list --global --depth=0
