@@ -26,16 +26,22 @@ brew "youtube-dl"
 brew "zsh"
 # Application launcher and productivity software
 cask "alfred"
+# Tool to list all active shortcuts of the current application
+cask "cheatsheet"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
 cask "iina"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Music streaming service
 cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
+# Desktop client for WhatsApp
+cask "whatsapp"
 mas "DaisyDisk", id: 411643860
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
