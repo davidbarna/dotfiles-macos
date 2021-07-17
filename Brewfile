@@ -20,6 +20,8 @@ brew "mas"
 brew "n"
 # Perl compatible regular expressions library
 brew "pcre"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Application launcher and productivity software
@@ -28,6 +30,8 @@ cask "alfred"
 cask "dropbox"
 # Web browser
 cask "google-chrome"
+# Free and open-source media player
+cask "iina"
 # Music streaming service
 cask "spotify"
 # Open-source code editor
