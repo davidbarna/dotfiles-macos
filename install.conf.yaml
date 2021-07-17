@@ -25,3 +25,6 @@
     - command: ./setup-node.zsh
       stdout: true
       stderr: true
+    - command: ./setup-macos.zsh
+      stdout: true
+      stderr: true
