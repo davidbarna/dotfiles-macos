@@ -1,4 +1,4 @@
-echo "Hello from .zshrc"
+# echo "Hello from .zshrc"
 
 # Set Variables
 
@@ -11,11 +11,7 @@ export NULLCMD=bat
 
 # Create Aliases
 
-# List all files ordered by type with size info 
-# alias ls='ls -lAFh'
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
-alias bbd='brew bundle dump --force --describe'
+source ~/dev/config/shell/zsh/aliases.sh
 
 # Customize Prompt(s)
 PROMPT='

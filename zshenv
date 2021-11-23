@@ -1,4 +1,4 @@
-echo "Hello from .zshenv"
+# echo "Hello from .zshenv"
 
 # Set Variables
 

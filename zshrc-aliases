@@ -1,0 +1,39 @@
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+
+# List all files ordered by type with size info 
+
+# alias ls='ls -lAFh'
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
+alias bbd='brew bundle dump --force --describe'
+
+# NPM aliases
+
+alias ni="npm install"
+alias nid="npm install --save-dev"
+alias nig="npm install -g"
+alias nr="npm run-script"
+alias nt="npm test"
+# alias nit="npm install && npm test"
+# alias nis="npm install && npm start"
+# alias nits="npm install && npm test && npm start"
+alias ns="npm start"
+alias nl="npm link"
+
+
+# GIT aliases
+
+alias gm="git checkout master && git pull"
+alias gnb="git checkout master && git pull && git checkout -b"
+alias gpo="git push origin HEAD"
+function gco() {
+    git commit -m "$1"
+    git push origin HEAD
+}
+
+
