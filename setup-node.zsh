@@ -11,6 +11,9 @@ else
   n lts
 fi
 
+# Importing .zshrc to ensure its loaded in first execution
+source ~/.zshrc
+
 # Install Global NPM Packages
 
 # Retrieve a node module's readme from the command line, and pipe it into less.
