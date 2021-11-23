@@ -28,14 +28,20 @@ brew "zsh"
 cask "alfred"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
 cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Free and open-source media player
 cask "iina"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Music streaming service
