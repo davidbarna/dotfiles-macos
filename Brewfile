@@ -30,6 +30,8 @@ cask "alfred"
 cask "cheatsheet"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Desktop client for GitHub repositories
+cask "github"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
