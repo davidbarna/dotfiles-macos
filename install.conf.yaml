@@ -8,6 +8,7 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.gitconfig:
+    ~/.gitconfig.atlassian:
     ~/.config/bat:
       create: true
       path: config/bat
