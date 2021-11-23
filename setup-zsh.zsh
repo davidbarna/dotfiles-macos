@@ -32,3 +32,13 @@ else
   # I'd like for this to work instead.
   # sudo ln -sfv /usr/local/bin/zsh /private/var/select/sh
 fi
+
+# Install oh-my-zsh
+if [ -d "$HOME/.oh-my-zsh" ] ; then
+  echo 'oh-my-zsh is already installed'
+else
+  echo "Installing oh-my-zsh"
+  git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+fi
+
+source "$DOTFILES/zshrc"

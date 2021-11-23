@@ -6,19 +6,6 @@
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export NULLCMD=bat
 
-# Change ZSH Options
-
-
-# Create Aliases
-
-source ~/dev/config/shell/zsh/aliases.sh
-
-# Customize Prompt(s)
-PROMPT='
-%1~ %L %# '
-
-RPROMPT='%*'
-
 # Add Locations to $PATH Variable
 
 # Add Visual Studio Code (code)
@@ -36,7 +23,11 @@ function mkcd() {
 
 # Use ZSH Plugins
 
+# Add Oh My Zsh
+source "$DOTFILES/zshrc-oh-my-zsh"
 
-# ...and Other Surprises
+# Create Aliases
+source "$DOTFILES/zshrc-aliases"
+
 
 

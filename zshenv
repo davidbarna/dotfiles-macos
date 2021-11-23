@@ -5,6 +5,7 @@
 export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
+export DOTFILES="$HOME/dev/dotfiles-macos"
 
 # Functions
 
