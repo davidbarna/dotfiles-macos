@@ -3,3 +3,8 @@
 	email = 1083195+davidbarna@users.noreply.github.com
 [includeIf "gitdir:~/dev/atlassian/"]
 	path = ~/.gitconfig.atlassian
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

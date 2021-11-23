@@ -45,6 +45,11 @@ cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
 mas "DaisyDisk", id: 411643860
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
 mas "Owly", id: 882812218
+mas "Pages", id: 409201541
