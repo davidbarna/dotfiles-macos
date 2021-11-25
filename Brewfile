@@ -46,6 +46,8 @@ cask "iina"
 cask "iterm2"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Video chat, voice call and instant messaging application
+cask "skype"
 # Music streaming service
 cask "spotify"
 # Open-source code editor
