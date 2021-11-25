@@ -113,3 +113,10 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 # Sort Activity Monitor results by CPU usage
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
+
+
+# Set wallpaper
+wallpaper(){
+    osascript -e "tell application \"Finder\" to set desktop picture to \"${1}\" as POSIX file"
+}
+wallpaper "$DOTFILES/images/wallpaper.jpg"
