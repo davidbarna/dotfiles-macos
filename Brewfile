@@ -16,6 +16,8 @@ brew "ncurses"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Java-based project management
+brew "maven"
 # Node version management
 brew "n"
 # Perl compatible regular expressions library

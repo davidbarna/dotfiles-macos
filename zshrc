@@ -11,6 +11,10 @@ export NULLCMD=bat
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+# Add Java HOME
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+
 # Add N local
 export PATH="$PATH:$N_PREFIX/bin"
 
