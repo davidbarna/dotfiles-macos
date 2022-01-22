@@ -114,6 +114,29 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
 
+# Automatically rearrange Spaces based on most recent use to FALSE
+defaults write com.apple.dock mru-spaces -bool false
+
+###############################################################################
+# Google Chrome & Google Chrome Canary                                        #
+###############################################################################
+
+# Disable the all too sensitive backswipe on trackpads
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
+# defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
+
+# Disable the all too sensitive backswipe on Magic Mouse
+defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false
+# defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls -bool false
+
+# Use the system-native print preview dialog
+defaults write com.google.Chrome DisablePrintPreview -bool true
+# defaults write com.google.Chrome.canary DisablePrintPreview -bool true
+
+# Expand the print dialog by default
+defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
+# defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
+
 
 # Set wallpaper
 wallpaper(){
