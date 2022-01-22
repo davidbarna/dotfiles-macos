@@ -12,6 +12,8 @@ brew "git", link: false
 brew "git-lfs"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Text-based UI library
 brew "ncurses"
 # Pager program similar to more
@@ -42,6 +44,8 @@ cask "dropbox"
 cask "github"
 # Web browser
 cask "google-chrome"
+# Web browser
+cask "google-chrome-canary"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Free and open-source media player
@@ -50,10 +54,14 @@ cask "iina"
 cask "iterm2"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Collaboration platform for API development
+cask "postman"
 # Video chat, voice call and instant messaging application
 cask "skype"
 # Music streaming service
 cask "spotify"
+# System monitor for the menu bar
+cask "stats"
 # Open-source code editor
 cask "visual-studio-code"
 # Desktop client for WhatsApp
