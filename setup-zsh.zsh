@@ -1,5 +1,9 @@
 #!/usr/bin/env zsh
 
+set -e -o pipefail
+
+set -x
+
 echo "\n<<< Starting ZSH Setup >>>\n"
 
 # Installation unnecessary; it's in the Brewfile.
@@ -20,6 +24,7 @@ if [ "$SHELL" = '/usr/local/bin/zsh' ]; then
 else
   echo "Enter user password to change login shell"
   chsh -s '/usr/local/bin/zsh'
+  # chsh -s /bin/zsh
 fi
 
 if sh --version | grep -q zsh; then

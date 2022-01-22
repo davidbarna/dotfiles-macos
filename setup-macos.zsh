@@ -1,5 +1,9 @@
 #!/usr/bin/env zsh
 
+set -e -o pipefail
+
+set -x
+
 echo "\n<<< Starting OSX Setup >>>\n"
 
 ###############################################################################
