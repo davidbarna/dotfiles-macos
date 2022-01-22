@@ -22,7 +22,7 @@ Environment configuration for MacOs computers
     cd ~
     mkdir dev
     cd dev
-    git clone git@github.com:eieioxyz/dotfiles_macos.git
+    git clone git@github.com:davidbarna/dotfiles-macos.git
     ```
 1. Excute `./install`
     ```sh
