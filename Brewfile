@@ -67,7 +67,6 @@ cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
 mas "DaisyDisk", id: 411643860
-mas "Delay-Start", id: 591620786
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

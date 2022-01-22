@@ -15,17 +15,17 @@
 
 - create:
     - ~/dev
-
+    - ~/dev/atlassian
 - shell:
     - command: ./setup-homebrew.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup-macos.zsh
       stdout: true
       stderr: true
     - command: ./setup-zsh.zsh
       stdout: true
       stderr: true
     - command: ./setup-node.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup-macos.zsh
       stdout: true
       stderr: true
