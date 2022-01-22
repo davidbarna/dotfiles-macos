@@ -26,7 +26,7 @@ Environment configuration for MacOs computers
     ```
 1. Excute `./install`
     ```sh
-    cd ~/dev/dotfiles_macos
+    cd ~/dev/dotfiles-macos
     ./install
     ```
 ### What will happen
