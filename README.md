@@ -6,18 +6,14 @@ Environment configuration for MacOs computers
 
 ### Pre-install steps
 
-1. Install Command Line Tools in Mac OS X (Without Xcode) [Learn more](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
-
-    ```sh
-    xcode-select --install
-    ```
+1. Login to App Store to ensure paid apps can be installed
+1. Install Xcode from the App Store and open it to accept license
 1. Ensure git version is later than 2.13
     ```sh
     git --version
     ```
 1. Set up SSH in Github [Learn more](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-1. Login to App Store to ensure paid apps can be installed
 
 
 ### Install steps
