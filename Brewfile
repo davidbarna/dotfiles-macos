@@ -8,6 +8,8 @@ brew "bat"
 brew "exa"
 # Distributed revision control system
 brew "git", link: false
+# Git extension for versioning large files
+brew "git-lfs"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Text-based UI library
