@@ -24,6 +24,8 @@ brew "maven"
 brew "n"
 # Perl compatible regular expressions library
 brew "pcre"
+# Watch files and take action when they change
+brew "watchman"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 # UNIX shell (command interpreter)
