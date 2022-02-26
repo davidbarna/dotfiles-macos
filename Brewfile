@@ -7,7 +7,7 @@ brew "bat"
 # Modern replacement for 'ls'
 brew "exa"
 # Distributed revision control system
-brew "git", link: false
+brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -52,12 +52,18 @@ cask "google-drive"
 cask "iina"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Collaboration platform for API development
 cask "postman"
 # Video chat, voice call and instant messaging application
 cask "skype"
+# Team communication and collaboration software
+cask "slack"
+# Graphical client for Git version control
+cask "sourcetree"
 # Music streaming service
 cask "spotify"
 # System monitor for the menu bar
@@ -66,8 +72,12 @@ cask "stats"
 cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "DaisyDisk", id: 411643860
+mas "Duplicate File Finder Pro", id: 962263890
 mas "GarageBand", id: 682658836
+mas "Gemini 2", id: 1090488118
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
@@ -75,3 +85,4 @@ mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Owly", id: 882812218
 mas "Pages", id: 409201541
+mas "The Unarchiver", id: 425424353
