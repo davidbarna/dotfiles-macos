@@ -24,12 +24,24 @@ brew "mas"
 brew "maven"
 # Node version management
 brew "n"
-# Perl compatible regular expressions library
-brew "pcre"
+# Development kit for the Java programming language
+brew "openjdk@11"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Python version management
+brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Watch files and take action when they change
 brew "watchman"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Process YAML documents from the CLI
+brew "yq"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Application launcher and productivity software

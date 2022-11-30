@@ -1,5 +1,3 @@
-# echo "Hello from .zshrc"
-
 # Set Variables
 
 # Syntax highlighting for man pages using bat
@@ -18,6 +16,11 @@ export PATH=$JAVA_HOME/bin:$PATH
 # Add N local
 export PATH="$PATH:$N_PREFIX/bin"
 
+# Add Java JDK
+export JAVA_HOME="/usr/libexec/java_home"
+
+# And pyenv to handle several versions of python
+export PATH=$(pyenv root)/shims:$PATH
 
 # Write Handy Functions
 function mkcd() {
