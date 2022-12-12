@@ -12,7 +12,10 @@ if exists node; then
   echo "Node $(node --version) & NPM $(npm --version) already installed"
 else
   echo "Installing Node & NPM with n..."
-  n lts
+  curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n
+  bash n lts
+  # Now node and npm are available
+  npm install -g n
 fi
 
 # Importing .zshrc to ensure its loaded in first execution
