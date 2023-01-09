@@ -18,12 +18,12 @@ brew "ncurses"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Development kit for the Java programming language
+brew "openjdk"
 # Java-based project management
 brew "maven"
 # Node version management
 brew "n"
-# Development kit for the Java programming language
-brew "openjdk@11"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Execute binaries from Python packages in isolated environments
