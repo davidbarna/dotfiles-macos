@@ -1,3 +1,4 @@
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -10,6 +11,8 @@ brew "exa"
 brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Text-based UI library
@@ -24,6 +27,8 @@ brew "openjdk"
 brew "maven"
 # Node version management
 brew "n"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Execute binaries from Python packages in isolated environments
@@ -42,6 +47,10 @@ brew "watchman"
 brew "yq"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
+# Chromium based browser
+cask "arc"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
 # App to build and share containerized applications and microservices
