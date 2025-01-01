@@ -5,11 +5,11 @@
 #
 # Example aliases
 
-# List all files ordered by type with size info 
+# List all files ordered by type with size info
 
 # alias ls='ls -lAFh'
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
+alias ll="eza -l -g --icons"
+alias ls="eza --icons"
 alias bbd='brew bundle dump --force --describe'
 
 # NPM aliases
@@ -24,7 +24,6 @@ alias nt="npm test"
 # alias nits="npm install && npm test && npm start"
 alias ns="npm start"
 alias nl="npm link"
-
 
 # GIT aliases
 

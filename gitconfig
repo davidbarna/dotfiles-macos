@@ -10,3 +10,26 @@
 	clean = git-lfs clean -- %f
 [pull]
 	ff = only
+[core]
+	excludesfile = /Users/dalmeida/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[url "ssh://git@stash.atlassian.com:7997/"]
+	insteadOf = https://stash.atlassian.com/scm/
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[init]
+	defaultBranch = main
+[trace2]
+	eventTarget = af_unix:/Users/dalmeida/.gittrace/trace.sock
+	eventBrief = true
+	eventNesting = 1
+	configparams = custom.metacommands
+[commit]
+	template = /Users/dalmeida/.stCommitMsg

@@ -3,16 +3,39 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "snyk/tap"
+# New file format for still image compression
+brew "jpeg-xl"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Collection of portable C++ source libraries
+brew "boost"
+# Collection of reusable C++ library artifacts developed at Facebook
+brew "folly"
+# Shared library for Watchman and Eden projects
+brew "edencommon"
 # Modern replacement for 'ls'
 brew "exa"
+# C++14 implementation of the TLS-1.3 standard
+brew "fizz"
+# Modular, composable client/server abstractions framework
+brew "wangle"
+# Facebook's branch of Apache Thrift, including a new C++ server
+brew "fbthrift"
+# Thrift functions for querying information from a service
+brew "fb303"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Image manipulation
+brew "netpbm"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Text-based UI library
@@ -39,6 +62,8 @@ brew "pyenv"
 brew "python@3.10"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Tool for building source and injecting into docker images
+brew "source-to-image"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Watch files and take action when they change
