@@ -8,8 +8,8 @@
 # List all files ordered by type with size info
 
 # alias ls='ls -lAFh'
-alias ll="eza -l -g --icons"
-alias ls="eza --icons"
+alias llx="eza -l -g --icons"
+alias lsx="eza --icons"
 alias bbd='brew bundle dump --force --describe'
 
 # NPM aliases
