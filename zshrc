@@ -40,9 +40,6 @@ source "$DOTFILES/zshrc-oh-my-zsh"
 # Create Aliases
 source "$DOTFILES/zshrc-aliases"
 
-ORBIT_CHECKOUT="/Users/dalmeida/dev/atlassian/orbit"
-[ -f "$ORBIT_CHECKOUT/bin/dev-setup.sh" ] && source "$ORBIT_CHECKOUT/bin/dev-setup.sh"
-
 # bun completions
 [ -s "/Users/dalmeida/.bun/_bun" ] && source "/Users/dalmeida/.bun/_bun"
 
