@@ -27,6 +27,9 @@ export PATH=$(pyenv root)/shims:$PATH
 # Add path to go binaries
 export PATH=$PATH:$GOPATH/bin
 
+# Rust
+export PATH=$PATH:$GOPATH:/Users/dalmeida/.cargo/bin
+
 # Write Handy Functions
 function mkcd() {
   mkdir -p "$@" && cd "$_"
