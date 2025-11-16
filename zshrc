@@ -1,3 +1,7 @@
+# Force language for tools like git
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US:en
+
 # Add deno completions to search path
 if [[ ":$FPATH:" != *":/Users/dalmeida/.zsh/completions:"* ]]; then export FPATH="/Users/dalmeida/.zsh/completions:$FPATH"; fi
 # Set Variables
