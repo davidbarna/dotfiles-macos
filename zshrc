@@ -50,12 +50,11 @@ source "$DOTFILES/zshrc-aliases"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-source ~/.afm-git-configrc
 
 export PATH="/Users/dalmeida/.local/bin:$PATH"
 export PATH="/opt/atlassian/bin:$PATH"
 
-. "/Users/dalmeida/.deno/env"
+
 # Initialize zsh completions (added by deno install script)
 autoload -Uz compinit
 compinit

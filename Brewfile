@@ -1,13 +1,8 @@
-tap "atlassian/cloudtoken", "git@bitbucket.org:atlassian/cloudtoken-homebrew-tap.git"
 tap "go-task/tap"
 tap "golangci/tap"
-tap "homebrew/bundle"
-tap "homebrew/cask-versions"
 tap "lucagrulla/tap"
 tap "ngrok/ngrok"
 tap "snyk/tap"
-# Cryptographic recipes and primitives for Python
-brew "cryptography"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Official Amazon AWS command-line interface
@@ -20,6 +15,8 @@ brew "boost"
 brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Cryptographic recipes and primitives for Python
+brew "cryptography"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # C++14 implementation of the TLS-1.3 standard
@@ -76,8 +73,6 @@ brew "go-task/tap/go-task"
 brew "snyk/tap/snyk"
 # Chromium based browser
 cask "arc"
-# Tool to list all active shortcuts of the current application
-cask "cheatsheet"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Client for the Dropbox cloud storage service
@@ -94,11 +89,17 @@ cask "iterm2"
 cask "microsoft-teams"
 # Collaboration platform for API development
 cask "postman"
-# Video chat, voice call and instant messaging application
-cask "skype"
 # Graphical client for Git version control
 cask "sourcetree"
 # Music streaming service
 cask "spotify"
 # System monitor for the menu bar
 cask "stats"
+# Open-source code editor
+cask "visual-studio-code"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Okta Verify", id: 490179405
+mas "Pages", id: 409201541
