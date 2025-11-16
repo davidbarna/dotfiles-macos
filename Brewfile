@@ -1,29 +1,33 @@
-tap "heroku/brew"
+tap "atlassian/cloudtoken", "git@bitbucket.org:atlassian/cloudtoken-homebrew-tap.git"
+tap "go-task/tap"
+tap "golangci/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
+tap "lucagrulla/tap"
+tap "ngrok/ngrok"
 tap "snyk/tap"
-# New file format for still image compression
-brew "jpeg-xl"
+# Cryptographic recipes and primitives for Python
+brew "cryptography"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Collection of portable C++ source libraries
 brew "boost"
-# Collection of reusable C++ library artifacts developed at Facebook
-brew "folly"
-# Shared library for Watchman and Eden projects
-brew "edencommon"
-# Modern replacement for 'ls'
-brew "exa"
+# Cross-platform make
+brew "cmake"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Tool for exploring each layer in a docker image
+brew "dive"
 # C++14 implementation of the TLS-1.3 standard
 brew "fizz"
 # Modular, composable client/server abstractions framework
 brew "wangle"
-# Facebook's branch of Apache Thrift, including a new C++ server
-brew "fbthrift"
-# Thrift functions for querying information from a service
-brew "fb303"
+# Modern, maintained replacement for ls
+brew "eza"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
@@ -44,24 +48,18 @@ brew "ncurses"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-# Development kit for the Java programming language
-brew "openjdk"
 # Java-based project management
 brew "maven"
 # Node version management
 brew "n"
+# Libraries for security-enabled client and server applications
+brew "nss"
 # OpenBSD freely-licensed SSH connectivity tools
 brew "openssh"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
-# Execute binaries from Python packages in isolated environments
-brew "pipx"
 # Python version management
 brew "pyenv"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+# Safe, concurrent, practical language
+brew "rust"
 # Tool for building source and injecting into docker images
 brew "source-to-image"
 # Executes a program periodically, showing output fullscreen
@@ -72,18 +70,22 @@ brew "watchman"
 brew "yq"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
+# Task runner / simpler Make alternative written in Go
+brew "go-task/tap/go-task"
+# Find & fix known vulnerabilities in open-source dependencies
+brew "snyk/tap/snyk"
 # Chromium based browser
 cask "arc"
 # Tool to list all active shortcuts of the current application
 cask "cheatsheet"
-# App to build and share containerized applications and microservices
-cask "docker"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Web browser
-cask "google-chrome-canary"
+cask "firefox"
+# Web browser
+cask "google-chrome@canary"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -100,17 +102,3 @@ cask "sourcetree"
 cask "spotify"
 # System monitor for the menu bar
 cask "stats"
-# Desktop client for WhatsApp
-cask "whatsapp"
-mas "Amphetamine", id: 937984704
-mas "DaisyDisk", id: 411643860
-mas "Duplicate File Finder Pro", id: 962263890
-mas "GarageBand", id: 682658836
-mas "Gemini 2", id: 1090488118
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Magnet", id: 441258766
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Speedtest", id: 1153157709
-mas "The Unarchiver", id: 425424353
